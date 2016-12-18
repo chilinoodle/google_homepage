@@ -11,13 +11,21 @@
 		</ul>
 	</div>
 	<div id="container">
-		<img id="googlelogo" src="logo.png">
-		<form name="search_form" method="GET">
-			<input type="text" name="text_box">
-			<input type="submit" name="search" Value="Search">
-			<input type="submit" name="lucky" value="I'm feeling lucky">
-		</form>
-		<p id="langoffer">Google.com offered in:<a href="#"> Hrvatski</a></p>
+		<div id="imagediv">
+			<img id="googlelogo" src="logo.png">
+		</div>
+		<div id="formdiv">
+			<form name="search_form" method="GET">
+				<div id="searchboxdiv">
+					<input id="searchbox" type="text" name="text_box">
+				</div>
+				<div id="buttonsdiv">
+					<input class="buttons" id="green" type="submit" name="search" Value="Google Search">
+					<input class="buttons" type="submit" name="lucky" value="I'm Feeling Lucky">
+				</div>
+			</form>
+		</div>
+		<p id="langoffer">Google.com offered in: <a href="#">Hrvatski</a></p>
 	</div>
 </body>
 </html>
