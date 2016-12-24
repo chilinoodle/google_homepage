@@ -96,6 +96,14 @@ body {
 	margin: auto;
 }
 
+#imagediv p {
+	font-family: sans-serif;
+	display: inline-block;
+	margin: 0;
+	color: dimgrey;
+	font-size: 15px;
+}
+
 #formdiv {
 	position: absolute;
 	left: 0;
